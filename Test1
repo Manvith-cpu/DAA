@@ -1,1 +1,10 @@
-
+mat1=list(map(int,input().split()))
+mat2=list(map(int,input().split()))
+length=len(mat1)
+mat1.sort()
+mat2.sort()
+x,y=1,1
+i,j=1,0
+while i<length and j<length:
+    if mat[i]<=mat2[j]:
+        x=x+1
